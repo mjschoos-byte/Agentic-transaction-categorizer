@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transaction-categorizer"
+version = "0.1.0"
+description = "A human-in-the-loop bank transaction categorizer for a finance portfolio."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "openai>=1.68.0",
+  "pydantic>=2.7.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+categorize-transactions = "transaction_categorizer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

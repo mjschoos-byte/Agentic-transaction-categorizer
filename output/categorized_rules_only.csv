@@ -1,0 +1,11 @@
+date,description,amount,merchant,category,confidence,source,status,reason
+2026-08-01,ACH PMT AWS EDI 2938,-245.19,Amazon Web Services,Software,0.99,rule,auto_categorized,Description matched the approved 'aws' merchant rule.
+2026-08-02,SQ *JOES COFFEE SF,-14.85,Food merchant,Meals,0.99,rule,auto_categorized,Description matched the approved 'coffee' merchant rule.
+2026-08-03,STRIPE TRANSFER 8291,3200.00,Stripe,Revenue,0.99,rule,needs_review,Incoming Stripe transfer matched the approved revenue rule.
+2026-08-04,ADP PAYROLL 080426,-4875.00,Payroll provider,Payroll,0.99,rule,needs_review,Description matched the approved 'adp' merchant rule.
+2026-08-05,STAPLES STORE 1142,-67.43,Office supply store,Office Supplies,0.99,rule,auto_categorized,Description matched the approved 'staples' merchant rule.
+2026-08-06,UBER TRIP HELP.UBER.COM,-28.10,Rideshare,Travel,0.99,rule,auto_categorized,Description matched the approved 'uber' merchant rule.
+2026-08-07,COMCAST BUSINESS PAYMENT,-189.99,Utility provider,Utilities,0.99,rule,auto_categorized,Description matched the approved 'comcast' merchant rule.
+2026-08-08,NORTHSTAR CONSULTING LLC,-650.00,Unknown,Uncategorized,0.00,unclassified,needs_review,No approved rule matched and the agent was not enabled.
+2026-08-09,CHECK 1042,-1500.00,Unknown,Uncategorized,0.00,unclassified,needs_review,No approved rule matched and the agent was not enabled.
+2026-08-10,INTERNAL TRANSFER TO SAVINGS,-500.00,Internal transfer,Transfer,0.99,rule,auto_categorized,Description matched the approved internal-transfer rule.
